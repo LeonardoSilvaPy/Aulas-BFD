@@ -6,5 +6,6 @@ minha_lista = [
     "Musashi", "Sussurro", "Amos Daragon"
 ]
 
-# Exibindo a lista
-print(minha_lista)
+# Exibindo o primeiro e o último elemento
+print(minha_lista[0])   # Primeiro elemento
+print(minha_lista[-1])  # Último elemento
