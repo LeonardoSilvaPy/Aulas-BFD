@@ -4,3 +4,10 @@ ZeroDivisionError se b for igual a zero.
 Caso contrário, retorne o resultado da divisão.
 '''
 
+def dividir(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Não é possível dividir por zero.")
+    return a / b
+
+print(dividir(10, 2))
+print(dividir(10, 0))
