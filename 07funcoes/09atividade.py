@@ -6,3 +6,15 @@ A função deve aplicar a operação recebida (ex: soma, multiplicação). Exemp
  aplicar_operacao(3, 4, soma)
 '''
 
+def aplicar_operacao(a, b, func):
+    return func(a, b)
+
+def soma(x, y):
+    return x + y
+
+def multiplicacao(x, y):
+    return x * y
+
+print(aplicar_operacao(3, 4, soma))
+print(aplicar_operacao(3, 4, multiplicacao))
+
