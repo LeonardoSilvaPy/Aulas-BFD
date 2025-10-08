@@ -1,0 +1,27 @@
+'''
+Definição de classe abstrata
+
+Crie uma classe abstrata chamada Animal que possua um método abstrato falar().
+ Em seguida, crie duas classes concretas (Cachorro e Gato) que implementem esse método.
+   Mostre o uso criando objetos e chamando o método falar().
+'''
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def falar(self):
+        pass
+
+class Cachorro(Animal):
+    def falar(self):
+        return "Au au!"
+
+class Gato(Animal):
+    def falar(self):
+        return "Miau!"
+
+cachorro = Cachorro()
+gato = Gato()
+
+print("Cachorro diz:", cachorro.falar())
+print("Gato diz:", gato.falar())
