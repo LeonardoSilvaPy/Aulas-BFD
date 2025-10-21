@@ -1,0 +1,1 @@
+-- Liste todos os alunos cuja nota2 seja maior que 8. (Use WHERE)

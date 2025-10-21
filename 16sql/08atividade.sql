@@ -1,0 +1,1 @@
+-- Calcule a média da nota1 dos alunos por turma_id. (Use GROUP BY com função de agregação)

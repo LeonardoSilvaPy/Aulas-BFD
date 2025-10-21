@@ -1,0 +1,1 @@
+-- Liste o ano das turmas e a quantidade de turmas por ano. (Use GROUP BY)
