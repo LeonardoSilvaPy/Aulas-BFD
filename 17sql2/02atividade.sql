@@ -1,0 +1,1 @@
+-- MIN Mostre a menor mensalidade entre todos os cursos cadastrados. (Use a função MIN)

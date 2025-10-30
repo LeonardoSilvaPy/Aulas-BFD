@@ -1,0 +1,1 @@
+-- AVG Mostre a média geral da nota2 dos alunos. (Use a função AVG)

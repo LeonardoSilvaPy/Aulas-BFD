@@ -1,0 +1,1 @@
+-- SUM Calcule o valor total das mensalidades de todos os cursos. (Use a função SUM)
